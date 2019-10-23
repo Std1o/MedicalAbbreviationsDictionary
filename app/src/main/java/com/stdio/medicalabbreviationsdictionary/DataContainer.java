@@ -240,6 +240,13 @@ public class DataContainer {
         dataList.add(new DataModel("CP", "Хронический полиартрит (ортопедия)"));
         dataList.add(new DataModel("kathedermessplatz", "помещение для проведения коронарографии"));
         dataList.add(new DataModel("Uhrpfanne", "исходная вертлужная впадина"));
+        dataList.add(new DataModel("TPEF", "Тпос"));
+        dataList.add(new DataModel("PEF", "ПОС (пиковая объемная форсированная скорость выдоха)"));
+        dataList.add(new DataModel("Offset-Stiel", "ножка эндопротеза"));
+        dataList.add(new DataModel("D1", "диагональная артерия D1"));
+        dataList.add(new DataModel("M1", "краевая ветвь (артерии) М1"));
+        dataList.add(new DataModel("Alignement", "выравнивание (позвонков) - без спондилолистеза (т.е. без соскальзывания)"));
+        dataList.add(new DataModel("TZ / transition zone", "переходная зона (предстательной железы)"));
         dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
     }
 
