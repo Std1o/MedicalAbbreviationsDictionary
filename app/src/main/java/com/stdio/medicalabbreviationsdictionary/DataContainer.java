@@ -147,6 +147,39 @@ public class DataContainer {
         dataList.add(new DataModel("mSv", "миллизиверт"));
         dataList.add(new DataModel("V – Volt oder Volumen ", "В (вольт) или объём (V)"));
         dataList.add(new DataModel("s, sec - Sekunden", "с, сек - секунды"));
+
+        dataList.add(new DataModel("mesenchymales Hamartom", "мезенхимальная гамартома"));
+        dataList.add(new DataModel("ALT Alaninaminotransferase", "АЛТ"));
+        dataList.add(new DataModel("alveoläres Adenom", "пневмоцитарная аденома, альвеолярная аденома"));
+        dataList.add(new DataModel("Aspartat-Aminotransferase ASAT", "АСТ"));
+        dataList.add(new DataModel("benigne", "доброкачественный (синоним - gutartig)"));
+        dataList.add(new DataModel("Duodenum /  Zwölffingerdarm", "12-перстная кишка / двенадцатиперстная кишка/ДПК"));
+        dataList.add(new DataModel("dyskrinen Bronchitis", "бронхит с дискринией"));
+        dataList.add(new DataModel("Dystelektase", "дистелектаз"));
+        dataList.add(new DataModel("essentiell", "эссенциальный, незаменимый (эссенциальная гипертония)"));
+        dataList.add(new DataModel("Generik", "генерик, лекарственный эквивалент"));
+        dataList.add(new DataModel("Hernie", "грыжа"));
+        dataList.add(new DataModel("ICR (Intercostalraum )", "межреберье"));
+        dataList.add(new DataModel("RSB, Rechtsschenkelblock", "блокада правой ножки пучка Гиса (кардиология)"));
+        dataList.add(new DataModel("iRSB, inkompletter Rechtsschenkelblock", "неполная блокада правой ножки пучка Гиса (сокращение: НБПНП, iRS, кардиология)"));
+        dataList.add(new DataModel("keilexzision", "клиновидное иссечение (хирургия)"));
+        dataList.add(new DataModel("Klammernaht", "скобочный шов"));
+        dataList.add(new DataModel("Lagerungsdrainage", "постуральный дренаж"));
+        dataList.add(new DataModel("Lungenvitalkapazität", "жизненная емкость легких"));
+        dataList.add(new DataModel("Lymphadenektomie", "лимфаденэктомия (удаление пораженных лимфоузлов)"));
+        dataList.add(new DataModel("mesenchymal", "мезенхимальный"));
+        dataList.add(new DataModel("Pankrea", "поджелудочная железа"));
+        dataList.add(new DataModel("Pathologie", "патология/патологическая анатомия (отделение патологической анатомии (там делают гистологию/цитологию))"));
+        dataList.add(new DataModel("Plethysmographie", "плетизмография (Плетизмография – способ регистрации изменений объема тела или части его, связанных с динамикой кровенаполнения.)"));
+        dataList.add(new DataModel("pulmonal", "легочный, пульмональный"));
+        dataList.add(new DataModel("Raumforderung", "объемное образование (опухоль)"));
+        dataList.add(new DataModel("schnellschnitt, schnellschnittuntersuchung", "оперативная гистология"));
+        dataList.add(new DataModel("Spindelzelle", "веретенообразная клетка"));
+        dataList.add(new DataModel("Thorakotomie", "торакотомия (interkostale Thorakotomie - межкостная торакотомия)"));
+        dataList.add(new DataModel("Oberkieferhöhle /  Antrum Highmori sinus maxillaris", "гайморова пазуха"));
+        dataList.add(new DataModel("Spiral-CT / Helix-CT", "спиральная КТ (компьютерная томография)"));
+        dataList.add(new DataModel("multidisziplinäre medizinische Einrichtung", "многопрофильный медицинский центр"));
+        dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
     }
 
     public ArrayList<DataModel> getData() {
