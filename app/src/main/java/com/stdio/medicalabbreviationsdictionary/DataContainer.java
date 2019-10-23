@@ -222,6 +222,24 @@ public class DataContainer {
         dataList.add(new DataModel("TLC", "ОЕЛ - общая емкость легких (спирометрия)"));
         dataList.add(new DataModel("VC Vital Capacity", "ЖЕЛ - жизненная емкость легких (спирометрия)"));
         dataList.add(new DataModel("VT", "ОЗЛ - объём закрытия легких (спирометрия)"));
+        dataList.add(new DataModel("DLCO", "диффузионная способность легких по монооксиду углерода (спирометрия)"));
+        dataList.add(new DataModel("Bogengang", "полукружный канал (ухо)"));
+        dataList.add(new DataModel("Conchiotomie Conchotomie", "конхотомия"));
+        dataList.add(new DataModel("Phenomen Chilaiditi", "симптом Чилаидити"));
+        dataList.add(new DataModel("Femur", "бедренная кость"));
+        dataList.add(new DataModel("Genregion", "генный сегмент (генетика, офтальмология)"));
+        dataList.add(new DataModel("Spreizkissen", "отводящая подушка (хирургия)"));
+        dataList.add(new DataModel("Azygoswinkel", "угол добавочной вены правого легкого (кардиология, пульмонология)"));
+        dataList.add(new DataModel("Carina", "место разделения трахеи на два главных бронха (кардиология, пульмонология)"));
+        dataList.add(new DataModel("MLS", "mikrolaryngoskopie"));
+        dataList.add(new DataModel("FIV", "форсированный объем вдоха"));
+        dataList.add(new DataModel("PIV", "макс. скорость вдоха"));
+        dataList.add(new DataModel("Flanken frei", "При пальпации живота нет болей и резистентности. Симптом поколачивания отрицательный."));
+        dataList.add(new DataModel("anlagebedingt", "обусловленный развитием"));
+        dataList.add(new DataModel("Leisten frei", "паховые области безболезненны и без грыж"));
+        dataList.add(new DataModel("CP", "Хронический полиартрит (ортопедия)"));
+        dataList.add(new DataModel("kathedermessplatz", "помещение для проведения коронарографии"));
+        dataList.add(new DataModel("Uhrpfanne", "исходная вертлужная впадина"));
         dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
     }
 
