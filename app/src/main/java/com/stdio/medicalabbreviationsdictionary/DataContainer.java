@@ -179,6 +179,25 @@ public class DataContainer {
         dataList.add(new DataModel("Oberkieferhöhle /  Antrum Highmori sinus maxillaris", "гайморова пазуха"));
         dataList.add(new DataModel("Spiral-CT / Helix-CT", "спиральная КТ (компьютерная томография)"));
         dataList.add(new DataModel("multidisziplinäre medizinische Einrichtung", "многопрофильный медицинский центр"));
+        dataList.add(new DataModel("Ärtzlichen Gutachten", "консультативное заключение"));
+        dataList.add(new DataModel("Thorakoskopie", "торакоскопия"));
+        dataList.add(new DataModel("Nierenhohlsystem", "ЧЛС"));
+        dataList.add(new DataModel("Knochenszintigramm", "Остеосцинтиграфия"));
+        dataList.add(new DataModel("Tumormarker", "Онкомаркер"));
+        dataList.add(new DataModel("PSA", "ПСА простата-специфический антиген"));
+        dataList.add(new DataModel("CEA", "РЭА раково-эмбриональный антиген"));
+        dataList.add(new DataModel("Rippenfell", "костальняа плевра"));
+        dataList.add(new DataModel("alkalische Phosphatase;", "щелочная фосфатаза"));
+        dataList.add(new DataModel("Klopfschmerzsymptom ", "симптом поколачивания"));
+        dataList.add(new DataModel("Nystagmus", "нистагм"));
+        dataList.add(new DataModel("Palatumreflex", "нёбный рефлекс"));
+        dataList.add(new DataModel("Kappenmuskel", "трапециевидная мышца"));
+        dataList.add(new DataModel("Achillessehnenreflexe", "ахилловы рефлексы"));
+        dataList.add(new DataModel("Sehnenreflexe", "сухожильные рефлексы"));
+        dataList.add(new DataModel("Valleix-Punkte", "точки Валле (к позвоночнику)"));
+        dataList.add(new DataModel("Lasègue-Zeichen", "симптом Ласега (к позвоночнику)"));
+        dataList.add(new DataModel("Bandscheibenvorfall", "грыжа межпозвоночного диска (грыжа МПД)"));
+        dataList.add(new DataModel("Nichtsteroidale Antiphlogistika ", "нестероидные противовоспалительные"));
         dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
     }
 
