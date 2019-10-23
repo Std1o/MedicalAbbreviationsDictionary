@@ -198,6 +198,30 @@ public class DataContainer {
         dataList.add(new DataModel("Lasègue-Zeichen", "симптом Ласега (к позвоночнику)"));
         dataList.add(new DataModel("Bandscheibenvorfall", "грыжа межпозвоночного диска (грыжа МПД)"));
         dataList.add(new DataModel("Nichtsteroidale Antiphlogistika ", "нестероидные противовоспалительные"));
+        dataList.add(new DataModel("Oropharynx", "ротоглотка"));
+        dataList.add(new DataModel("Wunde reizlos verheilt", "рана зажила первичным натяжением"));
+        dataList.add(new DataModel("hypopharynx", "подглоточник"));
+        dataList.add(new DataModel("Megakaryozyte und Megakaryoblaste", "меги (в миелограмме) - Мегакариоциты и мегакариобласты"));
+        dataList.add(new DataModel("Myelokariozyte", "ядерность костного мозга"));
+        dataList.add(new DataModel("Laktatdehydrogenase", "ЛДГ"));
+        dataList.add(new DataModel("ostium cardiacum", "клапан Губарева (кардиальный клапан)"));
+        dataList.add(new DataModel("Jejunum", "тощая кишка"));
+        dataList.add(new DataModel("orthotop gelegen / ortstypisch/ findet sich ortstypisch", "расположена (расположен) обычно"));
+        dataList.add(new DataModel("Sialsäuren", "сиаловые кислоты"));
+        dataList.add(new DataModel("Diffusionskapazität", "диффузионная способность"));
+        dataList.add(new DataModel("reizlos", "без раздражения/не раздражен"));
+        dataList.add(new DataModel("ERV", "РOвыд - резервный объём выдоха (спирометрия)"));
+        dataList.add(new DataModel("FEV1", "ОФВ1 - объём форсированного выдоха за 1 секунду (спирометрия)"));
+        dataList.add(new DataModel("FRC", "ФОЕЛ - функциональная остаточная емкость легких. (спирометрия)"));
+        dataList.add(new DataModel("FVC", "ФЖЕЛ = ФЖЕЛвыд - форсированная жизненная ёмкость легких (спирометрия)"));
+        dataList.add(new DataModel("IC", "ЕВ - емкость вдоха (спирометрия)"));
+        dataList.add(new DataModel("IRV", "РOвд резервный объем вдоха (спирометрия)"));
+        dataList.add(new DataModel("MVV", "МВЛ - максимальная вентиляция лёгких (спирометрия)"));
+        dataList.add(new DataModel("PEF", "ПСВ (пиковая скорость выдоха) (спирометрия)"));
+        dataList.add(new DataModel("RV", "ОВ - остаточный воздух (спирометрия)"));
+        dataList.add(new DataModel("TLC", "ОЕЛ - общая емкость легких (спирометрия)"));
+        dataList.add(new DataModel("VC Vital Capacity", "ЖЕЛ - жизненная емкость легких (спирометрия)"));
+        dataList.add(new DataModel("VT", "ОЗЛ - объём закрытия легких (спирометрия)"));
         dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
     }
 
