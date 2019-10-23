@@ -159,6 +159,8 @@ public class DataContainer {
         dataList.add(new DataModel("essentiell", "эссенциальный, незаменимый (эссенциальная гипертония)"));
         dataList.add(new DataModel("Generik", "генерик, лекарственный эквивалент"));
         dataList.add(new DataModel("Hernie", "грыжа"));
+        dataList.add(new DataModel("sth (Stirnhöhle) ", "лобная пазуха"));
+        dataList.add(new DataModel("kh (Kieferhöhle)", "гайморова пазуха"));
         dataList.add(new DataModel("ICR (Intercostalraum )", "межреберье"));
         dataList.add(new DataModel("RSB, Rechtsschenkelblock", "блокада правой ножки пучка Гиса (кардиология)"));
         dataList.add(new DataModel("iRSB, inkompletter Rechtsschenkelblock", "неполная блокада правой ножки пучка Гиса (сокращение: НБПНП, iRS, кардиология)"));
