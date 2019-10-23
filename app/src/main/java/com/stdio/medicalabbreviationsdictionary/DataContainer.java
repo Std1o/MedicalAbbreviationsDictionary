@@ -247,7 +247,26 @@ public class DataContainer {
         dataList.add(new DataModel("M1", "краевая ветвь (артерии) М1"));
         dataList.add(new DataModel("Alignement", "выравнивание (позвонков) - без спондилолистеза (т.е. без соскальзывания)"));
         dataList.add(new DataModel("TZ / transition zone", "переходная зона (предстательной железы)"));
-        dataList.add(new DataModel("jhhhghhh", "skjdhfhfhfhf"));
+
+        dataList.add(new DataModel("Анамнез", "die Anamnese (Die Anamnese der Patientin darf ich als bekannt voraussetzen – анамнез пациентки известен)"));
+        dataList.add(new DataModel("Пациент сообщает", "Patient berichtet"));
+        dataList.add(new DataModel("Жалобы", "Beschwerden / Klagen (Patientin klagte sich über… пациент жаловался на…)"));
+        dataList.add(new DataModel("Заключение (слово многозначное, зависящее от контекста)", "Befund/Zusammenfassung (итоговое заключение)"));
+        dataList.add(new DataModel("Vorbefund", "предыдущее (врачебное) заключение"));
+        dataList.add(new DataModel("Дообследование/дополнительное обследование", "Abklärung/DIagnosepräzisierung"));
+        dataList.add(new DataModel("В сторонней медицинской организации", "Außerhalb / extern / Fremdorganisation / ex domo"));
+        dataList.add(new DataModel("Диагноз, поставленный в сторонней клинике", "Fremdbefundung"));
+        dataList.add(new DataModel("В сторонней клинике", "ex domo"));
+        dataList.add(new DataModel("В нашей клинике", "in domo"));
+        dataList.add(new DataModel("В сознании (неврология)", "wach (Neurologie)"));
+        dataList.add(new DataModel("Определяется", "zeigt sich (Bei der Untersuchung zeigte sich unauffällige Situation – при обследовании не было обнаружено патологии)"));
+        dataList.add(new DataModel("Определяется", "lässt sich abgrenzen (in Z.n. Operation lässt sich aktuell keine Zyste mehr abgrenzen – после операции киста больше не определяется)"));
+        dataList.add(new DataModel("Без патологии / без особенностей", "Unauffällig/keine Pathologie /o.B. (ohne Besonderheiten)"));
+        dataList.add(new DataModel("Выраженная", "deutliche (реже: ausgeprägte) (es zeigt sich deutliche Endometriumhyperplasie – определяется выраженная гиперплазия эндометрия)"));
+        dataList.add(new DataModel("Визуализируется/определяется", "zeigt sich"));
+        dataList.add(new DataModel("Признаки …", "Hinweise auf"));
+        dataList.add(new DataModel("Ткань железы (железистая ткань)", "Drüsengewebe"));
+        dataList.add(new DataModel("Мочеиспускание", "Miktion"));
     }
 
     public ArrayList<DataModel> getData() {
