@@ -10,8 +10,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<DataModel> dataList;
     private RecyclerView rv;
+    DataContainer dataContainer = new DataContainer();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,19 +24,12 @@ public class MainActivity extends AppCompatActivity {
         rv=(RecyclerView)findViewById(R.id.rv);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setLayoutManager(llm);
-        initializeData();
+        dataContainer.initializeData();
         initializeAdapter();
     }
 
-    private void initializeData(){
-        dataList = new ArrayList<>();
-        dataList.add(new DataModel("Wert", "Показатель, величина"));
-        dataList.add(new DataModel("Ergebnis", "результат"));
-        dataList.add(new DataModel("Kommentar", "комментарий"));
-    }
-
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(dataList, this);
+        RVAdapter adapter = new RVAdapter(dataContainer.getData(), this);
         rv.setAdapter(adapter);
     }
 }
