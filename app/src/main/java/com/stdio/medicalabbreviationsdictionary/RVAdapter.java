@@ -52,12 +52,6 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.DataViewHolder> {
     public void onBindViewHolder(DataViewHolder dataViewHolder, final int position) {
         dataViewHolder.tvTitle.setText(dataList.get(position).title);
         dataViewHolder.tvDescription.setText(dataList.get(position).description);
-        dataViewHolder.cv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(mContext, String.valueOf(position), Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
     @Override
